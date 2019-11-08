@@ -1,0 +1,11 @@
+structure (TerID) {
+  description (출발, 도착 버스터미널 ID)
+  property (srcid) {
+    type (SrcID)
+    min (Optional) max (One)
+  }
+  property (dstid) {
+    type (DstID)
+    min (Optional) max (One)
+  }
+}
