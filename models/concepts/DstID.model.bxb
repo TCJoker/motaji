@@ -1,0 +1,3 @@
+integer (DstID) {
+  description (도착 버스 터미널 ID)
+}

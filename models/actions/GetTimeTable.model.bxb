@@ -1,0 +1,14 @@
+action (GetTimeTable) {
+  description (버스 시간 정보와 운임을 가져온다)
+  collect {
+    input (src) {
+      type (Src)
+      min (Optional) max (One)
+    }
+    input (dst) {
+      type (Dst)
+      min (Optional) max (One)
+    }
+  }
+  output (TimeResult)
+}

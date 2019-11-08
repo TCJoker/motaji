@@ -1,0 +1,11 @@
+structure (TimeResult) {
+  description (시간정보와 운임)
+  property (time) {
+    type (Time)
+    min (Optional) max (One)
+  }
+  property (cost) {
+    type (Cost)
+    min (Optional) max (One)
+  }
+}
