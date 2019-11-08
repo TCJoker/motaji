@@ -1,0 +1,27 @@
+structure (Result) {
+  description (__DESCRIPTION__)
+  property (depPlandTime) {
+    type (DT)
+    min (Optional) max (One)
+  }
+   property (arrPlandTime) {
+    type (AT)
+    min (Optional) max (One)
+  }
+   property (depPlaceNm) {
+    type (DP)
+    min (Optional) max (One)
+  }
+   property (arrPlaceNm) {
+    type (AP)
+    min (Optional) max (One)
+  }
+   property (gradeNm) {
+    type (GN)
+    min (Optional) max (One)
+  }
+  property (charge) {
+    type (CH)
+    min (Optional) max (One)
+  }
+}

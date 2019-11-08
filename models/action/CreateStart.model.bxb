@@ -1,0 +1,11 @@
+action (CreateStart) {
+  description (__DESCRIPTION__)
+  type(Search)
+  collect {
+    input (startTerminal) {
+      type (STerminal)
+      min (Required) max (One)
+    }
+  }
+  output (StartID)
+}

@@ -1,0 +1,11 @@
+structure (Terminal) {
+  description (__DESCRIPTION__)
+  property (terminalID) {
+    type (TerminalID)
+    min (Optional) max (One)
+  }
+  property (terminalName) {
+    type (TerminalName)
+    min (Optional) max (One)
+  }
+}

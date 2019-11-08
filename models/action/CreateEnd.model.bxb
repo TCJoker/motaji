@@ -1,0 +1,11 @@
+action (CreateEnd) {
+  description (__DESCRIPTION__)
+  type(Search)
+  collect {
+    input (endTerminal) {
+      type (ETerminal)
+      min (Required) max (One)
+    }
+  }
+  output (EndID)
+}

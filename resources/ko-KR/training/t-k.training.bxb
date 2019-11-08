@@ -1,0 +1,5 @@
+train (t-k76epi9qzee0luj1dpf0e9ec2) {
+  utterance ("[g:GetTimeTable] (서울)[v:STerminal]에서 (부산)[v:ETerminal]")
+  plan (bYxBDoIwEEV/FZUDqDF6By4hxLiFXmCMs6hpIWmH+1Maw6KwmeT9N3kocQkmsBuocoPQz1Qth9EKHtn8YtHGsaaPZZwz2fTfd41btj49k3B0K9No9s70ZHHNTCfkJbbum61kV7VuqZ2gsMMeBQ44RsKfVWKVGMud92L+mgA=)
+  last-modified (1573236097409)
+}

@@ -1,0 +1,14 @@
+action (GetTimeTable) {
+  description (__DESCRIPTION__)
+  collect {
+    input (starTerminalID) {
+      type (StartID)
+      min (Required) max (One)
+    }
+    input (endTerminalID) {
+      type (EndID)
+      min (Required) max (One)
+    }
+  }
+  output (Result)
+}

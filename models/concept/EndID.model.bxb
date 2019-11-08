@@ -1,0 +1,11 @@
+structure (EndID) {
+  description (__DESCRIPTION__)
+  property (eid) {
+    type (EID)
+    min (Optional) max (One)
+  }
+  property (en) {
+    type (EN)
+    min (Optional) max (One)
+  }
+}

@@ -1,0 +1,16 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (CreateEnd) {
+      accepted-inputs (endTerminal)
+      local-endpoint ("CreateEnd.js")
+    }
+    action-endpoint (CreateStart) {
+      accepted-inputs (startTerminal)
+      local-endpoint ("CreateStart.js")
+    }
+    action-endpoint (GetTimeTable) {
+      accepted-inputs (starTerminalID, endTerminalID)
+      local-endpoint ("GetTimeTable.js")
+    }
+  }
+}

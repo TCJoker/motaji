@@ -1,0 +1,11 @@
+structure (StartID) {
+  description (__DESCRIPTION__)
+  property (sid) {
+    type (SID)
+    min (Optional) max (One)
+  }
+  property (sn) {
+    type (SN)
+    min (Optional) max (One)
+  }
+}
